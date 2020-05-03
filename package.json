@@ -1,0 +1,12 @@
+{
+  "name": "typescript-npm-package",
+  "version": "1.0.0",
+  "description": "Example of typescript npm package",
+  "scripts": {
+    "prepublishOnly": "tsc && rollup dist/index.js --file bundle.js"
+  },
+  "devDependencies": {
+    "rollup": "^2.7.6",
+    "typescript": "^3.8.3"
+  }
+}
