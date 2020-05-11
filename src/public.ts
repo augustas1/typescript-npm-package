@@ -1,4 +1,4 @@
-import { InternalEntity } from "./internal"
+import { InternalEntity } from './internal'
 
 export class PublicEntity {
 

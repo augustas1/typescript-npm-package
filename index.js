@@ -1,5 +1,10 @@
-import { InternalEntity } from './internal';
-export class PublicEntity {
+class InternalEntity {
+    execute() {
+        // code
+    }
+}
+
+class PublicEntity {
     constructor() {
         this.internal = new InternalEntity();
     }
@@ -7,3 +12,5 @@ export class PublicEntity {
         this.internal.execute();
     }
 }
+
+export { PublicEntity };

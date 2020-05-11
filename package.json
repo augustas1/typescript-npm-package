@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Example of typescript npm package",
   "scripts": {
-    "prepublishOnly": "tsc && rollup dist/index.js --file bundle.js"
+    "prepublishOnly": "npm run clean && tsc && rollup -c",
+    "clean": "rimraf dist && rimraf index.js && rimraf index.d.ts"
   },
   "devDependencies": {
-    "rollup": "^2.7.6",
+    "rimraf": "^3.0.2",
+    "rollup": "2.7.6",
+    "rollup-plugin-dts": "1.4.0",
     "typescript": "^3.8.3"
   }
 }

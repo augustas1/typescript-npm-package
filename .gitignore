@@ -1,4 +1,7 @@
 node_modules
 
-// transpiled npm package files shouldn't be commited to git repo. It's only to show the output for the viewers.
-// dist
+# transpiled npm package files shouldn't be commited to git repo.
+# it's commited only for demo purposes.
+# dist
+# index.js
+# index.d.ts
