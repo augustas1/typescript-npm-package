@@ -6,6 +6,10 @@
     "prepublishOnly": "npm run clean && tsc && rollup -c",
     "clean": "rimraf dist && rimraf index.js && rimraf index.d.ts"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "devDependencies": {
     "rimraf": "^3.0.2",
     "rollup": "2.7.6",
