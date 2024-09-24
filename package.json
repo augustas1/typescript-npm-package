@@ -12,7 +12,7 @@
   ],
   "devDependencies": {
     "rimraf": "^3.0.2",
-    "rollup": "2.7.6",
+    "rollup": "3.29.5",
     "rollup-plugin-dts": "1.4.0",
     "typescript": "^3.8.3"
   }
